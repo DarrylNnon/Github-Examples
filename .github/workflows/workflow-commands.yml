@@ -1,5 +1,7 @@
 name: "workflow Commands"
 
+on: ['push']
+
 jobs: 
   my-job:
     runs-on: Ubuntu-latest
