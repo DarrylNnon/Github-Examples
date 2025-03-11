@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: omenking/barsoom@0.0.6
+        uses: DarrylNnon/barsoom@0.0.1
         with:
-          name: 'Brown'
+          name: 'Francklin'
       # Use the output from the `hello` step
       - name: Get the Output
         run: echo "The time was ${{ steps.hello.outputs.greeting }}"
